@@ -251,6 +251,7 @@
 				9C815F781F63F6C900C370AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
