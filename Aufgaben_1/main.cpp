@@ -36,6 +36,8 @@ int main( int argc, char* argv[]){
     double F = 20.0;
     printf("The temperature in F is ");
     
+    
+    // error Use of undeclared identifier
     scanf_s("%lf", &F, 1);
     
     C = (F - 32) * 5.0/9.0;
