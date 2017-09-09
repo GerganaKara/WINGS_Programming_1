@@ -24,8 +24,10 @@ int main(int argc, const char * argv[]) {
     return 0;
     
   */
-    // task 2 pg 57 - F to C
+
+/* task 2 pg 57 - F to C
     // c = ((f -32) * 5/9)
+
 #include <stdio.h>
 #include <iostream>
 
@@ -38,7 +40,7 @@ int main( int argc, char* argv[]){
     
     
     // error Use of undeclared identifier
-    scanf_s("%lf", &F, 1);
+    //scanf_s("%lf", &F, 1);
     
     C = (F - 32) * 5.0/9.0;
     
@@ -46,5 +48,60 @@ int main( int argc, char* argv[]){
     return 0;
 }
 
+ 
+// task 3 - pg 58, varialbes and formats 
+ 
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+int main ( int argc, char* argv[]){
     
+    int i = 1;
+    float m = 2.33;
+    double t= 6.34;
+    float n= 2.33e3;
+    char p[] = "Gergana";
+    
+    i = 106;
+    printf("Ingerer i = %i \n",i);
+    printf("Stirng p = %s \n", p);
+    printf("Dezimalzahl %d dezimal = %i \n", i, i);
+    printf("Dezimalzahl %d hexadezimal = %x \n", i, i);
+    printf("Dezimalzahl %d hexadezimal = %X \n", i, i);
+    printf("Dezimalzahl %d oktal = %o \n", i, i);
+    printf("Dezimalzahl %d Zeichen = %c \n", i, i);
+
+
+    return 0;
+   */
+
+// task 4 - pg 59 Benzinverbrauch und - kosten
+// declare Km konst, Benzinpreis je Liter;
+
+#include <iostream>
+#include <stdio.h>
+
+using namespace std;
+
+#define benz_preis  1.50
+#define verb_benz  1000.00
+#define km_anzahl  100
+
+
+int main (){
+
+    
+    float  verb_benz_100,benz_preis_100;
+    // per km this car uses -- 10 km
+     verb_benz_100 =  100. * verb_benz / km_anzahl;
+     benz_preis_100 = 100 * benz_preis;
+    printf("Per 100 km this car uses %6.2f liters Benzin. This costs %6.2f \n", verb_benz_100, benz_preis_100);
+    
+    printf("Price per liter \t : %6.2f\n", (float)km_anzahl);
+    
+    
+}
+
 
