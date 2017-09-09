@@ -7,11 +7,19 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, nice World!\n";
+    int var = 10;
+    char c = 'G';
+    float a = 3.1;
+    const float PI = 3.14;
+    string space = " ";
+    
+    cout << "Hello, nice big World!\n";
+    cout << var << space << c << space << a << space<< PI << a<<endl;
     printf("hi\n");
            
     return 0;
 }
+
