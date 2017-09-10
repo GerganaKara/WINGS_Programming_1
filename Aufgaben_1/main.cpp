@@ -75,7 +75,6 @@ int main ( int argc, char* argv[]){
 
 
     return 0;
-   */
 
 // task 4 - pg 59 Benzinverbrauch und - kosten
 // declare Km konst, Benzinpreis je Liter;
@@ -95,13 +94,28 @@ int main (){
     
     float  verb_benz_100,benz_preis_100;
     // per km this car uses -- 10 km
-     verb_benz_100 =  100. * verb_benz / km_anzahl;
-     benz_preis_100 = 100 * benz_preis;
+    verb_benz_100 =  100. * verb_benz / km_anzahl;
+    benz_preis_100 = 100 * benz_preis;
     printf("Per 100 km this car uses %6.2f liters Benzin. This costs %6.2f \n", verb_benz_100, benz_preis_100);
     
     printf("Price per liter \t : %6.2f\n", (float)km_anzahl);
     
+*/
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main () {
     
+    int zahl;
+    do
+    {
+        scan ( zahl, 1);
+        if (zahl <0) continue;
+        printf("%d\n", zahl);
+    }
+    while (zahl  < 100);
+    return 0;
 }
 
 
