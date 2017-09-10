@@ -100,7 +100,7 @@ int main (){
     
     printf("Price per liter \t : %6.2f\n", (float)km_anzahl);
     
-*/
+
 #include <iostream>
 #include <stdio.h>
 using namespace std;
@@ -116,6 +116,8 @@ int main () {
     }
     while (zahl  < 100);
     return 0;
-}
+*/
+
+ 
 
 
