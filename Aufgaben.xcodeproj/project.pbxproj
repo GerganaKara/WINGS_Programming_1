@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1E0A5F1F655D1300F802AC /* Aufgaben_2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C1E0A5D1F655D1300F802AC /* Aufgaben_2.cpp */; };
 		9C815F731F63F6C900C370AD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9C815F721F63F6C900C370AD /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +24,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9C815F6F1F63F6C800C370AD /* Aufgaben_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Aufgaben_1; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1E0A5D1F655D1300F802AC /* Aufgaben_2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Aufgaben_2.cpp; sourceTree = "<group>"; };
+		9C1E0A5E1F655D1300F802AC /* Aufgaben_2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Aufgaben_2.hpp; sourceTree = "<group>"; };
+		9C815F6F1F63F6C800C370AD /* Aufgaben */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Aufgaben; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C815F721F63F6C900C370AD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +44,8 @@
 		9C815F661F63F6C800C370AD = {
 			isa = PBXGroup;
 			children = (
+				9C1E0A5D1F655D1300F802AC /* Aufgaben_2.cpp */,
+				9C1E0A5E1F655D1300F802AC /* Aufgaben_2.hpp */,
 				9C815F711F63F6C800C370AD /* Aufgaben_1 */,
 				9C815F701F63F6C800C370AD /* Products */,
 			);
@@ -49,7 +54,7 @@
 		9C815F701F63F6C800C370AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C815F6F1F63F6C800C370AD /* Aufgaben_1 */,
+				9C815F6F1F63F6C800C370AD /* Aufgaben */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C815F6E1F63F6C800C370AD /* Aufgaben_1 */ = {
+		9C815F6E1F63F6C800C370AD /* Aufgaben */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C815F761F63F6C900C370AD /* Build configuration list for PBXNativeTarget "Aufgaben_1" */;
+			buildConfigurationList = 9C815F761F63F6C900C370AD /* Build configuration list for PBXNativeTarget "Aufgaben" */;
 			buildPhases = (
 				9C815F6B1F63F6C800C370AD /* Sources */,
 				9C815F6C1F63F6C800C370AD /* Frameworks */,
@@ -77,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Aufgaben_1;
+			name = Aufgaben;
 			productName = Aufgaben_1;
-			productReference = 9C815F6F1F63F6C800C370AD /* Aufgaben_1 */;
+			productReference = 9C815F6F1F63F6C800C370AD /* Aufgaben */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C815F6A1F63F6C800C370AD /* Build configuration list for PBXProject "Aufgaben_1" */;
+			buildConfigurationList = 9C815F6A1F63F6C800C370AD /* Build configuration list for PBXProject "Aufgaben" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C815F6E1F63F6C800C370AD /* Aufgaben_1 */,
+				9C815F6E1F63F6C800C370AD /* Aufgaben */,
 			);
 		};
 /* End PBXProject section */
@@ -121,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C815F731F63F6C900C370AD /* main.cpp in Sources */,
+				9C1E0A5F1F655D1300F802AC /* Aufgaben_2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +241,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C815F6A1F63F6C800C370AD /* Build configuration list for PBXProject "Aufgaben_1" */ = {
+		9C815F6A1F63F6C800C370AD /* Build configuration list for PBXProject "Aufgaben" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C815F741F63F6C900C370AD /* Debug */,
@@ -244,7 +250,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C815F761F63F6C900C370AD /* Build configuration list for PBXNativeTarget "Aufgaben_1" */ = {
+		9C815F761F63F6C900C370AD /* Build configuration list for PBXNativeTarget "Aufgaben" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C815F771F63F6C900C370AD /* Debug */,
