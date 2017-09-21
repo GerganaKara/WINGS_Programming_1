@@ -8,7 +8,7 @@
 
 #include "Aufgaben_2.hpp"
 
-// 1. IF Anweisungen
+// 1. IF Anweisungen - pg 90
 
 #include <iostream>
 using namespace std;
@@ -36,8 +36,8 @@ int main()
     
     return 0;
 }
-*/
-// 2. While Anweisung e ˆ z
+
+// 2. While Anweisung e ˆ z - pg 90
 
 #include <iostream>
 using namespace std;
@@ -74,3 +74,32 @@ int main () {
     cout << "e ^ Z equals : \n" << e << endl;
 
     }
+*/
+
+// Switch Anweisung pg 91
+
+#include <iostream>
+using namespace std;
+#include <stdio.h>
+
+int main() {
+    
+    int Z;
+    cout << "Enter a number Z: ";
+    cin >> Z;
+    
+    if ( Z > 0 && Z < 10)
+        cout << Z << " is between 0 and 10 \n";
+    else
+        cout << Z << " is not between 0 and 10 \n";
+
+    
+    if (Z % 2 == 0)
+        cout << Z << " is even \n";
+    else
+        cout << Z << " is uneven \n ";
+
+    
+}
+
+
